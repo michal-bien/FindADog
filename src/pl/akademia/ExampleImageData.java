@@ -9,13 +9,12 @@ public class ExampleImageData implements ImageDao {
 
     public void generateExampleData(){
 
-        imageDaoList.add(new Cat("jesus.jpg"));
-        imageDaoList.add(new Cat("jesus.jpg"));
-        imageDaoList.add(new Cat("jesus.jpg"));
-        imageDaoList.add(new Cat("satanleft.jpg"));
-        imageDaoList.add(new Cat("satanleft.jpg"));
-        imageDaoList.add(new Cat("satanleft.jpg"));
-
+        imageDaoList.add(new Cat("kot1.jpg"));
+        imageDaoList.add(new Cat("kot2.jpg"));
+        imageDaoList.add(new Cat("kot3.jpg"));
+        imageDaoList.add(new Cat("pies1.jpg"));
+        imageDaoList.add(new Dog("pies2.jpg"));
+        imageDaoList.add(new Cat("pies3.jpg"));
 
     }
 
